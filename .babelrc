@@ -1,0 +1,13 @@
+{
+    "presets": [
+      "flow",
+      "env",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-runtime",
+      ["react-flow-props-to-prop-types", {  }]
+    ]
+  }
